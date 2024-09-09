@@ -32,7 +32,7 @@ int main()
     cin >> num_del;
     vec = erase_element(vec, num_del);
     cout << "Result:\n";
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < vec.size(); i++)
     {
         cout << vec[i] << "  ";
     }
