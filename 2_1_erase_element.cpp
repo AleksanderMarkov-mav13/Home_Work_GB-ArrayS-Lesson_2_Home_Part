@@ -17,7 +17,7 @@ vector <int> erase_element (vector<int> vec, int num_del)
 int main()
 {
     cout << "\033[2J\033[1;1H";
-    cout << "This program takes some numbers from user, puts them all";
+    cout << "This program takes some numbers from user, puts them all\n";
     cout << "into array and suggests user to delete significant element from that array\n ";
     cout << "How many elements will be contain your array?\n";
     int n;
