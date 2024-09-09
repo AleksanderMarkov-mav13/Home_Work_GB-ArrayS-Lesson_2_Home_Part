@@ -11,7 +11,7 @@ int main()
     {
         cout << prices[i] << "  ";
     }
-    cout << "And we have such list of purchases:\n";
+    cout << "\nAnd we have such list of purchases:\n";
     for (int i = 0; i < purchases.size(); i++)
     {
         cout << purchases[i] << "  ";
@@ -19,7 +19,7 @@ int main()
     float sum = 0;
     for (int i = 0; i < purchases.size(); i++)
     {
-        if (purchases[i] > 0 && purchases[i] <= prices.size() - 1)
+        if (purchases[i] >= 0 && purchases[i] <= prices.size() - 1)
         {
             sum += prices[purchases[i]];
         }
